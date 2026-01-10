@@ -86,8 +86,8 @@ h1 {
 
 /* Gregorian Chants frame */
 .Gregorian-Chants {
-    width: 100px;
-    padding: 10px 80px 100px;
+    width: 500px;
+    padding: 10px 10px 20px;
     border: 30px double black;
     border-radius: 10px;
     background-color: #362105;
