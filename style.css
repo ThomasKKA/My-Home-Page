@@ -1,0 +1,183 @@
+body {
+    background-color: #362105;
+}
+
+
+/* Profile frame */
+.profile {
+    width: 300px;
+    padding: 10px 80px 100px;
+    border: 30px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+}
+    .profile .title {
+        position: absolute;
+        top: -40px;
+        right: 205px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #732222;
+        font-style: italic;
+        font-weight: bold;
+    }
+h1 {
+    position: relative;
+    top: -10px;
+    left: 50px;
+    font-size: 20px;
+    font-style:oblique;
+    color: yellow;
+    line-height: 1.0;
+    white-space: nowrap;
+}
+.video-profileFrame {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 30px;
+    height: 0;
+    width:350px;
+   /* overflow: hidden;*/
+    margin-top: 100px;
+    border-radius: 70px;
+}
+
+    .video-profileFrame iframe {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+.image-profileFrame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   
+}
+
+/* Hymns frame */
+.Hymns {
+    width: 500px;
+    padding: 10px 10px 20px;
+    border: 30px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    right: -600px;
+    top:-500px;
+}
+
+    .Hymns .title {
+        position: absolute;
+        top: -40px;
+        right: 205px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #732222;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+/* Gregorian Chants frame */
+.Gregorian-Chants {
+    width: 100px;
+    padding: 10px 80px 100px;
+    border: 30px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    right: -600px;
+    top: -400px;
+}
+
+    .Gregorian-Chants .title {
+        position: absolute;
+        top: -40px;
+        right: 205px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #732222;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+/* Motivation Content frame */
+.Motivation-Content {
+    width: 100px;
+    padding: 10px 80px 100px;
+    border: 30px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    right: -600px;
+    top: -300px;
+}
+
+    .Motivation-Content .title {
+        position: absolute;
+        top: -40px;
+        right: 205px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #732222;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+/* My projects frame */
+.My-projects {
+    width: 100px;
+    padding: 10px 80px 100px;
+    border: 30px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    /*  right: -600px;*/
+    top: -500px;
+}
+
+    .My-projects .title {
+        position: absolute;
+        top: -40px;
+        right: 205px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #732222;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+
+/* Contact Me frame */
+
+.Contact-Me {
+    width: 100px;
+    padding: 10px 80px 100px;
+    border: 30px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+      right: -600px;
+    top: -100px;
+}
+
+.Contact-Me .title {
+    position: absolute;
+    top: -40px;
+    right: 205px;
+    font-size: 22px;
+    padding: 6px 14px;
+    color: #732222;
+    font-style: italic;
+    font-weight: bold;
+}
