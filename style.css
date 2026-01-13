@@ -7,8 +7,8 @@ body {
 /* Profile frame */
 .profile {
     width: 300px;
-    padding: 10px 80px 100px;
-    border: 20px double black;
+    padding: 10px 80px 20px;
+    border: 10px double black;
     border-radius: 10px;
     background-color: #362105;
     margin: 10px 500px;
@@ -73,17 +73,42 @@ h2 {
    
 }
 
-/* Hymns frame */
-.Hymns {
+
+/* Prayer farme */
+.Prayer {
     width: 500px;
     padding: 10px 10px 20px;
-    border: 20px double black;
+    border: 10px double black;
     border-radius: 10px;
     background-color: #362105;
     margin: 10px 500px;
     position: relative;
     right: -600px;
-    top:-500px;
+    top: -300px;
+}
+
+    .Prayer .title {
+        position: absolute;
+        top: -30px;
+        right: 224px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #F54927;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+/* Hymns frame */
+.Hymns {
+    width: 500px;
+    padding: 10px 10px 20px;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    right: -600px;
+    top:-200px;
 }
 
     .Hymns .title {
@@ -101,13 +126,13 @@ h2 {
 .Gregorian-Chants {
     width: 500px;
     padding: 10px 10px 20px;
-    border: 20px double black;
+    border: 10px double black;
     border-radius: 10px;
     background-color: #362105;
     margin: 10px 500px;
     position: relative;
-    right: -600px;
-    top: -400px;
+    right: 30px;
+    top: -1600px;
 }
 
     .Gregorian-Chants .title {
@@ -125,13 +150,13 @@ h2 {
 .Motivation-Content {
     width: 500px;
     padding: 10px 10px 600px;
-    border: 20px double black;
+    border: 10px double black;
     border-radius: 10px;
     background-color: #362105;
     margin: 10px 500px;
     position: relative;
     right: 30px;
-    top: -1800px;
+    top: -1550px;
 }
 
     .Motivation-Content .title {
@@ -149,7 +174,7 @@ h2 {
 .My-projects {
     width: 100px;
     padding: 10px 80px 100px;
-    border: 30px double black;
+    border: 10px double black;
     border-radius: 10px;
     background-color: #362105;
     margin: 10px 500px;
@@ -175,7 +200,7 @@ h2 {
 .Contact-Me {
     width: 100px;
     padding: 10px 80px 100px;
-    border: 30px double black;
+    border: 10px double black;
     border-radius: 10px;
     background-color: #362105;
     margin: 10px 500px;
