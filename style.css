@@ -15,13 +15,14 @@ body {
     position: relative;
     top: 100px;
 }
+
     .profile .title {
         position: absolute;
         top: -30px;
         right: 190px;
         font-size: 22px;
         padding: 6px 14px;
-        color: #732222;
+        color: #F54927;
         font-style: italic;
         font-weight: bold;
     }
@@ -91,7 +92,7 @@ h2 {
         right: 224px;
         font-size: 22px;
         padding: 6px 14px;
-        color: #732222;
+        color: #F54927;
         font-style: italic;
         font-weight: bold;
     }
@@ -115,7 +116,7 @@ h2 {
         right: 190px;
         font-size: 22px;
         padding: 6px 14px;
-        color: #732222;
+        color: #F54927;
         font-style: italic;
         font-weight: bold;
     }
@@ -139,7 +140,7 @@ h2 {
         right: 190px;
         font-size: 22px;
         padding: 6px 14px;
-        color: #732222;
+        color: #F54927;
         font-style: italic;
         font-weight: bold;
     }
@@ -163,7 +164,7 @@ h2 {
         right: 205px;
         font-size: 22px;
         padding: 6px 14px;
-        color: #732222;
+        color: #F54927;
         font-style: italic;
         font-weight: bold;
     }
@@ -183,13 +184,13 @@ h2 {
     top: -100px;
 }
 
-.Contact-Me .title {
-    position: absolute;
-    top: -40px;
-    right: 205px;
-    font-size: 22px;
-    padding: 6px 14px;
-    color: #732222;
-    font-style: italic;
-    font-weight: bold;
-}
+    .Contact-Me .title {
+        position: absolute;
+        top: -40px;
+        right: 205px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #F54927;
+        font-style: italic;
+        font-weight: bold;
+    }
