@@ -1,0 +1,248 @@
+body {
+    background-color: #362105;
+   
+}
+
+
+/* Profile frame */
+
+
+.profile {
+    width: 300px;
+    padding: 10px 100px 10px;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    top: 100px;
+}
+
+    .profile .title {
+        position: absolute;
+        top: -30px;
+        right: 190px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #F54927;
+        font-style: italic;
+        font-weight: bold;
+    }
+h1 {
+    position: relative;
+    top: 10px;
+    left: 60px;
+    font-size: 30px;
+    font-style:revert;
+    color: yellow;
+    line-height: 1.0;
+    white-space: nowrap;
+}
+h2 {
+    position: relative;
+    top: 10px;
+    left: 50px;
+    font-size: 20px;
+    font-style:oblique;
+    color: yellow;
+    line-height: 1.0;
+    white-space: nowrap;
+}
+.video-profileFrame {
+    position: relative;
+    padding-top: 0px;
+    height: 250px;
+    width:450px;
+
+   /* overflow: hidden;*/
+    margin-top: 50px;
+    border-radius: 20px;
+    left:-70px;
+}
+
+    .video-profileFrame iframe {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+.image-profileFrame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   
+}
+
+
+/* Prayer farme */
+.Prayer {
+    width: 500px;
+    padding: 10px 10px 20px;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    right: -600px;
+    top: -300px;
+}
+
+    .Prayer .title {
+        position: absolute;
+        top: -30px;
+        right: 224px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #F54927;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+/* Stories farme */
+.Stories {
+    width: 500px;
+    padding: 10px 10px 10px;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    right: -600px;
+    top: -250px;
+}
+
+    .Stories .title {
+        position: absolute;
+        top: -30px;
+        right: 224px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #F54927;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+/* Hymns frame */
+.Hymns {
+    width: 500px;
+    padding: 10px 10px 20px;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    right: -600px;
+    top:-200px;
+}
+
+    .Hymns .title {
+        position: absolute;
+        top: -30px;
+        right: 224px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #F54927;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+/* Gregorian Chants frame */
+.Gregorian-Chants {
+    width: 500px;
+    padding: 10px 10px 20px;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    right: 30px;
+    top: -2000px;
+}
+
+    .Gregorian-Chants .title {
+        position: absolute;
+        top: -30px;
+        right: 190px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #F54927;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+/* Motivation Content frame */
+.Motivation-Content {
+    width: 500px;
+    padding: 10px 10px 0px;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    right: 30px;
+    top: -1950px;
+}
+
+    .Motivation-Content .title {
+        position: absolute;
+        top: -30px;
+        right: 190px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #F54927;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+/* My projects frame */
+.My-projects {
+    width: 100px;
+    padding: 10px 80px 100px;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    /*  right: -600px;*/
+    top: 100px;
+}
+
+    .My-projects .title {
+        position: absolute;
+        top: -40px;
+        right: 205px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #F54927;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+
+/* Contact Me frame */
+
+.Contact-Me {
+    width: 100px;
+    padding: 10px 80px 100px;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+      right: -600px;
+    top: -100px;
+}
+
+    .Contact-Me .title {
+        position: absolute;
+        top: -40px;
+        right: 205px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #F54927;
+        font-style: italic;
+        font-weight: bold;
+    }
