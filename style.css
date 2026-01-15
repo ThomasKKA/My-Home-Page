@@ -232,8 +232,8 @@ h2 {
     background-color: #362105;
     margin: 10px 500px;
     position: relative;
-      right: -600px;
-    top: -3000px;
+      right: -610px;
+    top: -3230px;
 }
 
     .Contact-Me .title {
@@ -254,7 +254,7 @@ h2 {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         cursor: pointer;
-        margin-left: -190px;
+        margin-left: -170px;
         position: absolute;
         margin-top: 10px;
     }
@@ -270,7 +270,7 @@ h2 {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         cursor: pointer;
-        margin-left: -90px;
+        margin-left: -70px;
         position: absolute;
         margin-top: 10px;
     }
@@ -287,11 +287,26 @@ h2 {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         cursor: pointer;
-        margin-left: 40px;
+        margin-left: 70px;
         position: absolute;
         margin-top: 10px;
     }
 
         .Contact-Me .email:hover {
+            transform: scale(1.15);
+        }
+
+    .Contact-Me .youtube {
+        font-size: 70px;
+        background: linear-gradient(48deg, #F72800, #FFFFFF, #F72800, #F72800 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        cursor: pointer;
+        margin-left: 180px;
+        position: absolute;
+        margin-top: 10px;
+    }
+
+        .Contact-Me .youtube:hover {
             transform: scale(1.15);
         }
