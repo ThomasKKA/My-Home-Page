@@ -9,7 +9,7 @@ body {
 
 .profile {
     width: 300px;
-    padding: 10px 80px 10px;
+    padding: 10px 100px 10px;
     border: 10px double black;
     border-radius: 10px;
     background-color: #362105;
@@ -50,13 +50,14 @@ h2 {
 }
 .video-profileFrame {
     position: relative;
-    padding-bottom: 56.25%; 
-    padding-top: 30px;
-    height: 0;
-    width:350px;
+    padding-top: 0px;
+    height: 250px;
+    width:450px;
+
    /* overflow: hidden;*/
-    margin-top: 100px;
-    border-radius: 70px;
+    margin-top: 50px;
+    border-radius: 20px;
+    left:-70px;
 }
 
     .video-profileFrame iframe {
@@ -225,14 +226,14 @@ h2 {
 
 .Contact-Me {
     width: 100px;
-    padding: 10px 80px 100px;
+    padding: 10px 200px 100px;
     border: 10px double black;
     border-radius: 10px;
     background-color: #362105;
     margin: 10px 500px;
     position: relative;
       right: -600px;
-    top: -100px;
+    top: -3000px;
 }
 
     .Contact-Me .title {
@@ -245,3 +246,52 @@ h2 {
         font-style: italic;
         font-weight: bold;
     }
+
+
+    .Contact-Me .insta {
+        font-size: 70px;
+        background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        cursor: pointer;
+        margin-left: -190px;
+        position: absolute;
+        margin-top: 10px;
+    }
+
+        .Contact-Me .insta:hover {
+            transform: scale(1.15);
+        }
+
+
+    .Contact-Me .discord {
+        font-size: 70px;
+        background: linear-gradient(50deg, #FFFFFF, #739FD1, #587EAD, #B6C7DB);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        cursor: pointer;
+        margin-left: -90px;
+        position: absolute;
+        margin-top: 10px;
+    }
+
+        .Contact-Me .discord:hover {
+            transform: scale(1.15);
+        }
+
+
+
+    .Contact-Me .email {
+        font-size: 70px;
+        background: linear-gradient(48deg, #FFFFFF, #3636B3, #3636B3, #FFFFFF );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        cursor: pointer;
+        margin-left: 40px;
+        position: absolute;
+        margin-top: 10px;
+    }
+
+        .Contact-Me .email:hover {
+            transform: scale(1.15);
+        }
