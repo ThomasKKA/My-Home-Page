@@ -199,15 +199,15 @@ h2 {
 
 /* My projects frame */
 .My-projects {
-    width: 100px;
-    padding: 10px 80px 100px;
+    width: 400px;
+    padding: 10px 30px 10px;
     border: 10px double black;
     border-radius: 10px;
     background-color: #362105;
     margin: 10px 500px;
     position: relative;
-    /*  right: -600px;*/
-    top: 100px;
+    right: -600px;
+    top: -3100px;
 }
 
     .My-projects .title {
@@ -222,6 +222,8 @@ h2 {
     }
 
 
+
+
 /* Contact Me frame */
 
 .Contact-Me {
@@ -232,8 +234,8 @@ h2 {
     background-color: #362105;
     margin: 10px 500px;
     position: relative;
-      right: -610px;
-    top: -3230px;
+    right: -610px;
+    top: -3060px;
 }
 
     .Contact-Me .title {

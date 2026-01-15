@@ -1,0 +1,38 @@
+body {
+    background-color: #362105;
+
+
+}
+
+
+h1 {
+    
+    font-style: revert;
+    color: yellow;
+    line-height: 1.0;
+    white-space: nowrap;
+}
+
+
+.frame {
+    width: 300px;
+    padding: 10px 100px 400px;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    left:300px;
+    top: 100px;
+}
+
+    .frame .title {
+        position: absolute;
+        top: -30px;
+        right: 200px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #F54927;
+        font-style: italic;
+        font-weight: bold;
+    }
