@@ -13,8 +13,8 @@ body {
 
 
     .frame {
-        width: 300px;
-        padding: 10px 90px 10px;
+        width: 400px;
+        padding: 10px 100px 10px;
         border: 10px double black;
         border-radius: 10px;
         background-color: #362105;
@@ -70,3 +70,25 @@ body {
         object-fit: contain;
         margin-bottom: 10px;
     } 
+
+.img {
+  position: absolute;
+  z-index: 3;
+}
+
+.incense {
+  top: 500px;
+  left: 300px;
+  width: 200px;
+}
+
+.bible {
+  top: 300px;
+  right: 400px;
+  width: 400px;
+}
+
+.rosary {
+  bottom: 300px;
+  right: 400px;
+  width: 300px;
