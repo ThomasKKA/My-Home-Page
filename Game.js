@@ -2,22 +2,39 @@
 
 const questions = [
     {
-        question: "What is the capital of France?",
-        options: ["Paris", "London", "Berlin", "Rome"],
-        image: "top-view-soil.jpg",
-        answer: "Paris"
+        question: "Who was the first Pope of the Catholic Church?",
+        image: "",
+        options: ["St. Paul", "St. Peter", "St. John", "St. Augustine"],
+        answer: "St. Peter"
     },
     {
-        question: "Which language is used for web development?",
-        options: ["Python", "C++", "JavaScript", "Java"],
-        image:"top-view-soil.jpg",
-        answer: "JavaScript"
+        question: "How many Sacraments are there in the Catholic Church?",
+        image: "",
+        options: ["5", "7", "10", "12"],
+        answer: "7"
     },
     {
-        question: "What is 2 + 2?",
-        options: ["3", "4", "5", "6"],
-        image: "top-view-soil.jpg",
-        answer: "4"
+        question: "Which book is the first book of the Bible?",
+        image: "",
+        options: ["Exodus", "Genesis", "Matthew", "Psalms"],
+        answer: "Genesis"
+    },
+    {
+        question: "What is the Eucharist?",
+        image: "",
+        options: [
+            "A prayer book",
+            "The Body and Blood of Christ",
+            "A church building",
+            "A Bible verse"
+        ],
+        answer: "The Body and Blood of Christ"
+    },
+    {
+        question: "Who is the mother of Jesus?",
+        image: "",
+        options: ["Elizabeth", "Martha", "Mary", "Ruth"],
+        answer: "Mary"
     }
 ];
 
