@@ -37,9 +37,8 @@ body {
         }
 
         .frame .quiz-container {
-            background-color: midnightblue;
+            background-color: #7DD6E8;
             padding: 40px 40px;
-        
             margin-left:-30px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0.4,1.0);
@@ -56,7 +55,7 @@ body {
     }
 
         button:hover {
-            background-color: black;
+            background-color: #183940;
         }
 
     #options button {
