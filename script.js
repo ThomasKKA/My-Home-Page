@@ -6,7 +6,7 @@ button.addEventListener("click", function () {
 
 
 
-const button = document.getElementById("goBackButton");
+const goBackButton= document.getElementById("goBackButton");
 button.addEventListener("click", function () {
     window.location.href = "index.html";
 
