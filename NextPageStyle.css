@@ -73,3 +73,14 @@ button {
     object-fit: contain;
     margin-bottom: 10px;
 }
+
+
+.exit {
+    width: 400px;
+    padding: 10px 100px 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    left: -600px;
+    top: 10px;
+}
