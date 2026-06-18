@@ -2,75 +2,74 @@
 
 body {
     background-color: #362105;
-  
 }
 
-    h1 {
-        font-style: revert;
-        color: yellow;
-        line-height: 1.0;
-        white-space: nowrap;
+h1 {
+    font-style: revert;
+    color: yellow;
+    line-height: 1.0;
+    white-space: nowrap;
+}
+
+.image-profileFrame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.frame {
+    width: 400px;
+    padding: 10px 100px 10px;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: #362105;
+    margin: 10px 500px;
+    position: relative;
+    left: 300px;
+    top: 10px;
+}
+
+    .frame .title {
+        position: absolute;
+        top: -30px;
+        right: 200px;
+        font-size: 22px;
+        padding: 6px 14px;
+        color: #F54927;
+        font-style: italic;
+        font-weight: bold;
     }
 
-
-    .frame {
-        width: 400px;
-        padding: 10px 100px 10px;
-        border: 10px double black;
+    .frame .quiz-container {
+        background-color: midnightblue;
+        padding: 40px 40px;
+        margin-left: -30px;
         border-radius: 10px;
-        background-color: #362105;
-        margin: 10px 500px;
-        position: relative;
-        left: 300px;
-        top: 10px;
-    }
-
-        .frame .title {
-            position: absolute;
-            top: -30px;
-            right: 200px;
-            font-size: 22px;
-            padding: 6px 14px;
-            color: #F54927;
-            font-style: italic;
-            font-weight: bold;
-        }
-
-        .frame .quiz-container {
-            background-color: #7DD6E8;
-            padding: 40px 40px;
-            margin-left:-30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0.4,1.0);
-            text-align: center;
-            width: 100%;
-        }
-
-    button {
-        padding: 10px 20px;
-        margin: 10px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-        button:hover {
-            background-color: #183940;
-        }
-
-    #options button {
-        display: block;
+        box-shadow: 0 0 10px rgba(0,0,0.4,1.0);
+        text-align: center;
         width: 100%;
-        margin-bottom: 10px;
     }
 
-    #question-image {
-        width: 100%;
-        max-height: 200px;
-        object-fit: contain;
-        margin-bottom: 10px;
-    } 
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+    button:hover {
+        background-color: black;
+    }
 
+#options button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
 
-
+#question-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
