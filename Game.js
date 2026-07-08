@@ -1,5 +1,6 @@
 // script.js
 
+
 const questions = [
     {
         question: "Who was the first Pope of the Catholic Church?",
@@ -53,13 +54,13 @@ function loadQuestion() {
 
     img.src = q.image;
     optionsEl.innerHTML = "";
-    
+
     q.options.forEach(option => {
         const button = document.createElement("button");
         button.textContent = option;
         button.addEventListener("click", selectOption);
         optionsEl.appendChild(button);
-       
+
     });
 }
 
@@ -96,3 +97,6 @@ nextBtn.addEventListener("click", () => {
 
 // start the game
 loadQuestion();
+
+
+
