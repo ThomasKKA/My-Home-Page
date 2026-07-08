@@ -1,6 +1,6 @@
 body {
     /*background-color: #5e3a03;*/
-    background-color: color-mix(#362105, #856413);
+    background-color: color-mix(in srgb, #362105 50%, #856413 50%);
 }
 
 h1 {
