@@ -1,6 +1,6 @@
 body {
     /*background-color: #5e3a03;*/
-    background-color: color-mix(in srgb, #362105 50%, #856413 50%);
+    background: linear-gradient(1090deg, #362105, #856413);
 }
 
 h1 {
@@ -62,12 +62,15 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
     button:hover {
         background-color:dimgrey;
     }
-
+#question{
+    color:burlywood;
+}
 #options button {
     display: block;
     width: 100%;
