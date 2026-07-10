@@ -1,6 +1,6 @@
 body {
     /*background-color: #5e3a03;*/
-    background: linear-gradient(1090deg, #362105, #856413);
+    background-color: color-mix(in srgb, #362105 50%, #856413 50%);
 }
 
 h1 {
@@ -47,7 +47,7 @@ h1 {
 
 
 .frame .quiz-container {
-    background-color: midnightblue;
+    background-color:#71b8e674;
     padding: 40px 40px;
     margin-right: -60px;
     border-radius: 10px;
