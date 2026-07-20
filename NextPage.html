@@ -21,49 +21,62 @@
     <!-- images -->
     <div class="image-profileFrame">
         <img src="giphy.gif" alt="img bible"
-             style="display: block; margin: 600px 1800px; width: 300px;"> 
+             style="display: block; margin: 600px 1800px; width: 400px;">
 
     </div>
     <div class="image-profileFrame">
         <img src="200w_d.gif" alt="img rosary"
-             style="display: block; margin: 300px 1800px; width: 200px;"> 
+             style="display: block; margin: 300px 1800px; width: 300px;">
 
     </div>
     <div class="image-profileFrame">
         <img src="200w.gif" alt="incense gif"
-             style="display: block; margin: 300px 200px; width: 200px;"> 
+             style="display: block; margin: 300px 200px; width: 300px;">
 
     </div>
 
-    <div class="container">
 
-        <div class="frame" style=" margin-left:800px; margin-top:200px;">
-            <div class="title">Quiz Game</div>
-            <div class="quiz-container">
+    <div class="frame" style=" margin-left:800px; margin-top:200px;">
+        <div class="title">Quiz Game</div>
+
+
+        <div class="quiz-container">
+            <!--<h1 style="margin-left:-340px;">Catholic Game Quiz </h1>-->
+
+            <div id="Background-Text">Catholic Game Quiz</div> 
+            <img id="Start-Image" src="eqhs5p781m83bhi9hqvf2g9ieu.png" style="width:100%;" />
+            <button id="start-btn">Start Quiz</button>
+
+
+            <div id="quizContainer" style="display: none;">
+                
                 <h2 id="question">Question will appear here</h2>
                 <img id="question-image" src="" alt="Question image">
 
-                <div id="options">
+                <div id="options"></div>
 
-                    <!-- Option buttons will appear here -->
-                </div>
-                <button id="next-btn">Next</button>
+                <!-- Option buttons will appear here -->
+
+                <button id="next-btn" style="margin-bottom:40px;">Next</button>
                 <p id="score"></p>
-
 
             </div>
 
+            <button id="ReStart-Button" style="display:none;">Restart Quiz</button>
         </div>
+
         <script src="Game.js"></script>
     </div>
-        <!-- EXIT Button -->
-        <div class="exit">
-            <button id="goBackButton" style=" font-family: 'Bungee Shade', cursive; width: 400px; height: 60px; margin: 900px 100px;
+   
+    <!-- EXIT Button -->
+    <div class="exit">
+        <button id="goBackButton" style=" font-family: 'Bungee Shade', cursive; width: 400px; height: 60px; margin: 900px 100px;
            background-color: antiquewhite; color: cadetblue,blue,coral; font-size: 35px; " hover="transform: scale(0.15);">
-                Go Back
-            </button>
-            <script src="script.js"></script>
+            Go Back
+        </button>
+        <script src="script.js"></script>
 
-        </div>
+    </div>
+
 </body>
 </html>

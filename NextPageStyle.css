@@ -47,7 +47,7 @@ h1 {
 
 
 .frame .quiz-container {
-    background-color:#71b8e674;
+    background-color: #71b8e674;
     padding: 40px 40px;
     margin-right: -60px;
     border-radius: 10px;
@@ -71,12 +71,25 @@ button {
 #question{
     color:burlywood;
 }
-#options button {
-    display: block;
+#options{
+   /* display: block;*/
     width: 100%;
     margin-bottom: 10px;
+    object-fit: contain;
+
+
 }
 
+#next-btn {
+    width: 100%;
+    object-fit: contain;
+}
+
+#ReStart-Button {
+    width: 100%;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
 #question-image {
     width: 100%;
     max-height: 200px;
@@ -84,11 +97,20 @@ button {
     margin-bottom: 10px;
 }
 
-
+#start-btn {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+#Background-Text {
+    color: burlywood;
+    width: 100%;
+    font-size:30px;
+}
 .exit {
     width: 400px;
     padding: 10px 100px 10px;
- /*   background-color: #362105;*/
+    /*   background-color: #362105;*/
     margin: 10px 500px;
     position: relative;
     left: -600px;
